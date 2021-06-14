@@ -1,0 +1,461 @@
+body{
+    /* overflow-x:hidden; */
+    font-family:  'Almarai', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family:  'Almarai', sans-serif;
+}
+/* * {
+    outline: 1px solid red;
+} */
+
+a.nav-link{
+    font-family: 'Almarai', sans-serif;
+}
+
+a.dropdown-item{
+    font-family: 'Almarai', sans-serif;
+    color: white;
+    font-size: 10px; 
+}
+a.nav-link.dropdown-toggle{
+    font-size: 13px  !important;
+}
+a.login-dropdown{
+    border-radius: 5px;
+    background-color: #f1891c;
+}
+
+a.login-dropdown:hover{
+    border-radius: 5px;
+    background-color: #c76d0d;
+}
+
+a.reg-dropdown{
+    border-radius: 5px;
+    background-color: #79d700;
+}
+a.reg-dropdown:hover{
+    border-radius: 5px;
+    background-color: #579703;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.skill-build-container{
+    background-color: #f5ecef;
+}
+
+.title h2{
+    font-family: 'Almarai','sans-serif';
+    display: inline;
+    position:relative; 
+    bottom:17px
+}
+.skill-build-container p{
+    text-align: right;
+    font-family: 'Almarai', sans-serif !important;
+}
+
+.btn-show-more{
+    background-color: #034939;
+    /* margin: 10px 20px; */
+    color: #79d700 ;
+    font-family: 'Almarai', sans-serif !important;
+    padding: 5px 20px;
+    
+}
+
+.train-sponsor div.sponsor-title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-right: 20px;
+    font-family: 'Almarai', sans-serif !important;
+    background-color:#eee;
+    text-align: right;
+
+
+}
+.train-sponsor div.row h2{
+    font-size: 28px;
+    color: #034939;
+    
+}
+.train-sponsor div.row img{
+    width: 80px;
+    height: 80px;
+    display: inline;
+    
+}
+
+
+a.dropdown-item {
+    
+    color: black;
+}
+
+div.header{
+    background-color: #034939 ;
+    min-height: 400px;
+    padding-bottom: 200px;
+}
+h1{
+    font-family:  'Almarai', sans-serif; 
+    font-size: 48px;
+    line-height: 70px;
+}
+h2.text-ment{
+    font-family:  'Almarai', sans-serif; 
+    font-size: 30px;
+    color: #79d700;
+    line-height: 50px;
+    
+}
+h2.text-green{
+    font-family:  'Almarai', sans-serif; 
+    font-size: 35px;
+    color: #007b5f;
+    line-height: 50px;
+    border-right: chocolate solid 10px;
+    border-radius: 5px;
+    padding-right: 15px;
+    margin-right: 80px;
+    
+}
+#header-content{
+    margin-top: 120px;
+}
+div.block-content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #f4efef;
+}
+div.block-content p{
+    font-family:  'Almarai', sans-serif; 
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+    padding-right: 105px;
+    
+    
+}
+
+span.orange-dash{
+    font-weight: bolder !important ;
+    font-size: 60px;
+    color: chocolate;
+    line-height: 0.5px;
+}
+.bg-green{
+    background-color: #007b5f;
+
+}
+.bg-dark-green{
+    background-color: #034939;
+}
+.bg-ment{
+    background-color: #79d700 ;
+}
+.text-green{
+    color: #007b5f;
+}
+.text-dark-green{
+    color:  #034939;
+}
+.btn-more{
+    font-family:  'Almarai', sans-serif;
+    margin-right: 740px;
+}
+.block-content-green{
+    font-family:  'Almarai', sans-serif;
+    color: #007b5f ;
+    background-color: #d9d9d8;
+    padding-right: 100px;
+}
+
+.masar-category{
+    font-family:  'Almarai', sans-serif;
+    color: white;
+    font-weight: bolder; 
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding-right: 50px;
+}
+
+
+
+.training-topics-row{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.training-topic{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+}
+
+.training-topics{
+    font-family:  'Almarai', sans-serif;
+    
+    background-size: cover;
+}
+.training-topic-title{
+    font-family:  'Almarai', sans-serif;
+    color: white;
+    font-weight: bold; 
+    font-size: 25px;
+    
+}
+.training-recent-row{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.training-recent{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+}
+
+
+.training-recent-title{
+    font-family:  'Almarai', sans-serif;
+    color: white;
+    font-weight: bold; 
+    font-size: 25px;
+    
+}
+.text-ment{
+    color: #79d700 !important; 
+}
+
+button.text-ment{
+    color: #79d700 !important; 
+}
+.course-title{
+                font-family:  'Almarai', sans-serif;
+                color: black;
+                font-weight: bold; 
+                font-size: 18px;
+                margin-bottom: 15px;
+                
+
+}
+.p-orange{
+    
+    color: chocolate;
+}
+
+
+.footer-layer-1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #header-content{
+        margin-top: 80px;
+    }
+    .btn-more{
+        margin-right: 25px;
+    }
+    div.block-content p{
+        padding-right: 25px;
+        
+        
+    }
+    h2.text-green{
+        margin-right: 0px;
+        
+    }
+    .block-content-green{
+        
+        padding-right: 50px;
+    }
+    a.login-dropdown{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0);
+        text-align: right;
+    }
+    
+    a.login-dropdown:hover{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0);
+        text-align: right;
+    }
+    
+    a.reg-dropdown{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0);
+        text-align: right;
+    }
+    a.reg-dropdown:hover{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0);
+        text-align: right;
+    }
+    a.dropdown-item{
+        background:rgba(255, 255, 255, 0);
+        text-align: center;
+        color: black !important;
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    a.dropdown-item:hover{
+        background:rgb(233, 233, 233);
+        text-align: center;
+        color: black !important;
+        font-size: 13px;
+    }
+    .nav-link{
+        text-align: right;
+    }
+    li.nav-item:hover{
+        background-color: #03382c;
+    }
+    a.nav-link:hover{
+        background-color: #03382c;
+    }
+    .dropdown-menu{
+        background-color: rgba(0, 0, 0, 0);
+        border: 0;
+        color: white;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    img.img-hide{
+        display: none;
+    }
+    .train-sponsor div.sponsor-title div{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .train-sponsor div.sponsor-title h2{
+        text-align: center;
+        font-size: 20px;  
+        margin-bottom: 10px; 
+    }
+    
+  }
+
+  /* roads section */
+
+  .tracks{
+    position: relative;
+  }
+  .tracks .overlay{
+    height: 100%;
+    width:100%;
+    background-color:#000000;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tracks .track{
+     
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover;
+      z-index: 2;
+      color:#fff;
+  }
+  .tracks .track .content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+.track-category{
+    font-family:  'Almarai', sans-serif;
+    color: white;
+    font-weight: bolder; 
+    font-size: 25px;
+    margin-bottom: 25px;
+    
+}
+.track-title{
+    font-family:  'Almarai', sans-serif;
+    color: white;
+    font-weight: bold; 
+    font-size: 25px;
+    margin-bottom: 25px;
+   
+}
+.track-description{
+    font-family:  'Almarai', sans-serif;
+    color: white;
+    font-weight: bold; 
+    font-size: 15px;
+    
+    
+}
+.btn-transparent{
+    font-family:  'Almarai', sans-serif;
+    border: white solid 3px;
+    margin-top: 60px;
+    color: white;
+    font-size: 20px;
+}
+.btn-transparent:hover{
+    border: rgba(255, 255, 255, 0.582) solid 3px;
+    color: rgba(255, 255, 255, 0.582);
+    
+}
+
+
+/* carousal */
+.cards-wrapper-team {
+    display: flex;
+    justify-content: center;
+  }
+  .card-team img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .card-team {
+    margin: 0 30px;
+    /* box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); */
+    border: none;
+    border-radius: 0;
+    min-height: 200px;
+    text-align: center;
+  }
+  .carousel-team-inner {
+    padding: 1em;
+  }
+  .carousel-control-team-prev,
+  .carousel-control-team-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%; 
+    top: 32%;
+    transform: translateY(-50%);
+    
+  }
+  @media (min-width: 768px) {
+    /* .card-team img {
+      height: 200px;
+    } */
+  }
+
+  
